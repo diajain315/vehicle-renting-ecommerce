@@ -1,84 +1,107 @@
-🚴‍♂️ Bike-4-Rent
+# Bhakti Tours and Travels – Vehicle Rental System
 
-A full-stack bike rental web application built with Node.js, Express, MongoDB (backend) and React (frontend). It enables users to browse available bikes, book rentals, and manage bookings — all through an intuitive UI.
+## Project Overview
+This project is an E-service platform for vehicle rentals developed as part of M.Sc. (CA & IT). It is designed to transform the existing offline rental system of Bhakti Tours and Travels into a fully digital platform.
 
-🛠️ Features
+The system allows users to browse vehicles, check availability, and book rentals online, while providing an admin interface for managing operations.
 
-✔ User registration & login
-✔ Browse available bikes
-✔ Bike booking & rental management
-✔ MongoDB for database storage
-✔ REST API with Express
-✔ React frontend with modern UI
+---
 
-📁 Tech Stack
-Layer	Technology
-Frontend	React.js, HTML, CSS, JavaScript
-Backend	Node.js, Express
-Database	MongoDB
-Authentication	JWT / Sessions
-🚀 Live Demo (if available)
+## Organization Details
+- Company Name: Bhakti Tours and Travels  
+- Location: Udaipur, Rajasthan  
+- Owner: Hemant Agrawal  
 
-(Add link here when deployed)
+Bhakti Tours and Travels provides rental bikes and scooters for tourists to explore the city conveniently.
 
-bike-4-rent/
-├── backend/             # Backend API
-│   ├── controllers/
-│   ├── models/
-│   ├── routes/
-│   ├── app.js
-│   └── server.js
-├── frontend/            # React client
-│   ├── src/
-│   ├── public/
-│   └── package.json
-├── .gitignore
-├── package.json
-└── README.md
+---
 
-⚙️ Getting Started
-1. Clone the repo
-git clone https://github.com/jainygandhi04/bike-4-rent.git
-cd bike-4-rent
-2. 👩‍💻 Backend Setup
-cd backend
-npm install
+## Problem Statement
+The existing system was manual and required customers to visit or call for bookings. This resulted in:
+- Time-consuming processes  
+- Limited accessibility  
+- Manual errors in booking management  
 
-Create a .env file:
+---
 
-PORT=5000
-MONGO_URI=<Your MongoDB connection string>
-JWT_SECRET=<Your JWT secret>
+## Proposed Solution
+A web-based MERN application that provides:
+- Online vehicle browsing  
+- Real-time availability tracking  
+- Online booking system  
+- Automated management of rentals  
 
-Start the server:
+---
 
-npm start
-3. 🧠 Frontend Setup
-cd frontend
-npm install
-npm start
+## Features
+- User registration and login  
+- Vehicle search and filtering  
+- Online booking system  
+- Secure payment handling  
+- Admin dashboard for management  
+- Feedback and review system  
 
-App should run on: http://localhost:3000
+---
 
-🌐 API Endpoints (Example)
-Method	Route	Description
-POST	/api/auth/register	Register User
-POST	/api/auth/login	Login User
-GET	/api/bikes	List Bikes
-POST	/api/bookings	Create Booking
-GET	/api/bookings	Get User Bookings
+## Tech Stack
+- Frontend: React.js  
+- Backend: Node.js, Express.js  
+- Database: MongoDB  
 
-📌 Environment Variables
-Make sure to set these in your .env:
-PORT
-MONGO_URI
-JWT_SECRET
+---
 
-🤝 Contributing
-Fork the repo
-Create a new branch (git checkout -b feature/xyz)
-Commit your changes
-Push to your fork
-Open a pull request
+## System Modules
+- User Module (registration, login, booking)  
+- Admin Module (manage vehicles, bookings, users)  
+- Booking Module (availability and reservations)  
+- Payment Module  
+- Feedback Module  
 
-GitHub: https://github.com/jainygandhi04
+---
+
+## Project Structure
+frontend/   - React application  
+backend/    - Node.js and Express API  
+
+---
+
+## Testing
+The system has been tested for:
+- User authentication  
+- Booking functionality  
+- Payment process  
+- Admin operations  
+
+---
+
+## My Contribution
+- Set up and configured the project locally  
+- Managed GitHub repository  
+- Added documentation and improved structure  
+- Worked on project understanding and execution  
+
+---
+
+## Documentation
+Detailed project documentation is available in:
+- DOCUMENTATION.md  
+- Full project report (if added in docs folder)
+
+---
+
+## Academic Information
+- Course: M.Sc. (CA & IT)  
+- Semester: V / VI  
+- Institution: K.S School of Business Management, Gujarat University  
+
+---
+
+## Team Members
+- Diya Jain  
+- Jainy Gandhi  
+- Mannan Agrawal  
+
+---
+
+## Conclusion
+This project provides a complete digital solution for vehicle rental services, improving efficiency, accessibility, and user experience compared to traditional manual systems.
